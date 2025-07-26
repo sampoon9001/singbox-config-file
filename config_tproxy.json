@@ -31,8 +31,8 @@
    "rules": 
    [
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
-     {"domain_suffix": "bilibili.com", "server": "dns_direct"},
-     {"domain_suffix": "googleapis.cn", "server": "dns_proxy"},
+     {"domain_keyword": "bilibili", "server": "dns_direct"},
+     {"domain_keyword": "googleapis", "server": "dns_proxy"},
      {"clash_mode": "direct", "server": "dns_direct"},
      {"clash_mode": "global", "server": "dns_proxy"},
      {"rule_set": "geosite-cn", "server": "dns_direct"},
@@ -86,8 +86,8 @@
      {"clash_mode": "direct", "outbound": "➡️ 直连"},
      {"clash_mode": "global", "outbound": "GLOBAL"},
      {"domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "➡️ 直连"},
-     {"domain_suffix": "googleapis.cn", "outbound": "🍀 Google"},
-     {"domain_suffix": "bilibili.com", "outbound": "➡️ 直连"},
+     {"domain_keyword": "googleapis", "outbound": "🍀 Google"},
+     {"domain_keyword": "bilibili", "outbound": "➡️ 直连"},
      {"rule_set": "geosite-private", "outbound": "➡️ 直连"},
      {"rule_set": "geosite-chat", "outbound": "🤖 OpenAI"},
      {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
