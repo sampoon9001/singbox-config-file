@@ -33,7 +33,7 @@
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
      {"clash_mode": "Direct", "server": "dns_direct"},
      {"clash_mode": "Global", "server": "dns_proxy"},
-     {"domain": "gppgleapis.cn", "server": "dns_proxy"},
+     {"domain": "googleapis.cn", "server": "dns_proxy"},
      {"rule_set": "geosite-cn", "server": "dns_direct"},
      {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"}
    ],
